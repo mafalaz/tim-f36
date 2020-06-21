@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: "Lucida Grande";
@@ -9,7 +13,8 @@ a {
 
 /* Tambahkan CSS untuk container */
 .container {
-  width: 1170px;
+  max-width: 1170px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -54,38 +59,7 @@ header {
 
 .header-right {
   float: right;
-}
-
-.html:hover {
-  background-color: rgba(216, 222, 249, 0.9);
-  padding-right: 22px;
-  padding-left: 22px;
-  padding-top: 22px;
-  padding-bottom: 22px;
-}
-
-.css:hover {
-  background-color: rgba(216, 222, 249, 0.9);
-  padding-right: 22px;
-  padding-left: 22px;
-  padding-top: 22px;
-  padding-bottom: 22px;
-}
-
-.javascript:hover {
-  background-color: rgba(216, 222, 249, 0.9);
-  padding-right: 22px;
-  padding-left: 22px;
-  padding-top: 22px;
-  padding-bottom: 22px;
-}
-
-.node-js:hover {
-  background-color: rgba(216, 222, 249, 0.9);
-  padding-right: 22px;
-  padding-left: 22px;
-  padding-top: 22px;
-  padding-bottom: 22px;
+  margin-right: -25px;
 }
 
 .header-right a {
@@ -95,6 +69,22 @@ header {
   color: #5f5d60;
   transition: all 1s;
   font-size: 20px;
+}
+
+.header-right a:hover {
+  background-color: rgba(216, 222, 249, 0.9);
+  padding-right: 22px;
+  padding-left: 22px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.menu-icon {
+  color: #5f5d60;
+  display: none;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
 }
 
 .logo {
@@ -122,6 +112,11 @@ header {
 /* Tambahkan CSS untuk facebook */
 .facebook {
   background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.instagram {
+  background-color: #e4405f;
   margin-right: 10px;
 }
 
@@ -203,4 +198,37 @@ header {
   margin-top: 30px;
   font-size: 15px;
   color: #5f5d60;
+}
+
+.message-wrapper {
+  padding-bottom: 80px;
+  text-align: center;
+  box-shadow: none;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
