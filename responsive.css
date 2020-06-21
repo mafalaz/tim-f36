@@ -1,234 +1,109 @@
-*{
-  box-sizing: border-box;
+/* Untuk Tablets */
+@media all and (max-width: 1000px) {
+    .lesson{
+        width: 100%;
+    }
+
+    .message-wrapper{
+        width: 100%;
+    }
+
+    footer{
+        text-align: center;
+        width: 100%;
+    }
+
+    footer img {
+        width: 125px;
+    }
+
+    footer p {
+        color: #b3aeb5;
+        font-size: 12px;
+    }
+
+    /* Tambahkan CSS untuk tag <h1> didalam top-wrapper */
+    .top-wrapper h1{
+        font-size: 32px;
+    }
+
+    .header-right{
+        display: none;
+    }
+
+    .menu-icon{
+        visibility: visible;
+    }
+
+    /* Tambahkan CSS untuk tag <h2> didalam heading */
+    .heading h2{
+        font-size: 20px;
+    }
 }
 
-body {
-  margin: 0;
-  font-family: "Lucida Grande";
-}
+/* Untuk Smartphones */
 
-a {
-  text-decoration: none;
-}
+/* Tambahkan breakpoint max-width: 670px */
+@media all and (max-width: 670px) {
+    /* Ubah width milik lesson ke 100% */
+    .lesson{
+        width: 100%;
+    }
 
-/* Tambahkan CSS untuk container */
-.container {
-  max-width: 1170px;
-  width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
+    .message-wrapper{
+        width: 100%;
+    }
 
+    /* Ubah text-align property milik <footer> */
+    footer{
+        text-align: center;
+        width: 100%;
+    }
 
-/* Tambahkan CSS untuk top-wrapper */
-.top-wrapper {
-  padding-top: 180px;
-  padding-bottom: 100px;
-  color: white;
-  background-image: url(https://soft-garage.com/assets/images/bannar/g5.jpg);
-  background-size: cover;
-  text-align: center;
-}
+    footer img {
+        width: 100%;
+    }
 
-.top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 45px;
-  letter-spacing: 5px;
-  margin-bottom: 10px;
-}
+    footer p {
+        color: #b3aeb5;
+        font-size: 12px;
+        width: 100%;
+    }
 
-.top-wrapper p {
-  opacity: 0.7;
-  margin-bottom: 3px;
-}
+    /* Gantikan width btn ke 100% */
+    .btn{
+        width: 100%;
+    }
 
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.9);
-  position: fixed;
-  top: 0;
-  z-index: 10;
-}
+    /* Gantikan margin-bottom facebook ke 10px */
+    .facebook{
+        margin-bottom: 10px;
+    }
 
-.header-left {
-  float: left;
-}
+    /* Tambahkan CSS untuk top-wrapper */
+    .top-wrapper{
+        text-align: left;
+        padding-top: 130px;
+    }
 
-.header-right {
-  float: right;
-  margin-right: -25px;
-}
+    /* Tambahkan CSS untuk tag <h1> didalam top-wrapper */
+    .top-wrapper h1{
+        font-size: 24px;
+        line-height: 36px;
+    }
 
-.header-right a {
-  line-height: 65px;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: #5f5d60;
-  transition: all 1s;
-  font-size: 20px;
-}
+    /* Tambahkan CSS untuk tag <p> didalam top-wrapper */
+    .top-wrapper p{
+        font-size: 14px;
+        line-height: 20px;
+    }
 
-.header-right a:hover {
-  background-color: rgba(216, 222, 249, 0.9);
-  padding-right: 22px;
-  padding-left: 22px;
-  padding-top: 22px;
-  padding-bottom: 22px;
-}
+    .header-right{
+        display: none;
+    }
 
-.menu-icon {
-  color: #5f5d60;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  visibility: hidden;
-}
-
-.logo {
-  width: 124px;
-  margin-top: 10px;
-  transition: all 1s;
-}
-
-.btn {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 24px;
-  padding-right: 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 10px;
-}
-
-/* Tambahkan CSS untuk signup */
-.signup {
-  background-color: #239b76;
-}
-
-/* Tambahkan CSS untuk facebook */
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.instagram {
-  background-color: #e4405f;
-  margin-right: 10px;
-}
-
-/* Tambahkan CSS untuk twitter */
-.twitter {
-  background-color: #55acee;
-}
-
-/* Tambahkan CSS untuk btn-wrapper */
-.btn-wrapper {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  transition: all 1s;
-}
-
-/* Tambahkan CSS untuk tag <p> didalam class btn-wrapper */
-.btn-wrapper p {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.fa {
-  margin-right: 5px;
-}
-
-.lesson-wrapper {
-  height: 500px;
-  padding-bottom: 80px;
-  background-color: white;
-  text-align: center;
-}
-
-.heading {
-  padding-top: 60px;
-  padding-bottom: 30px;
-  color: #5f5d60;
-}
-
-.heading h2 {
-  font-weight: normal;
-}
-
-.lesson {
-  float: left;
-  width: 25%;
-}
-
-.lesson-icon {
-  position: relative;
-}
-
-.border1 {
-  border-bottom: 2px solid #dee7ec;
-}
-
-.border2 {
-  border-bottom: 2px solid #dee7ec;
-}
-
-.border3 {
-  border-bottom: 2px solid #dee7ec;
-}
-
-.border4 {
-  border-bottom: 2px solid #dee7ec;
-}
-
-/* Tambahkan CSS untuk tag <p> didalam lesson-icon */
-.lesson-icon p {
-  top: 90px;
-  width: 100%;
-  font-size: 25px;
-  color: #5f5d60;
-}
-
-.txt-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 30px;
-  font-size: 15px;
-  color: #5f5d60;
-}
-
-.message-wrapper {
-  padding-bottom: 80px;
-  text-align: center;
-  box-shadow: none;
-}
-
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0 7px #1a7940;
-}
-
-.message:active {
-  position: relative;
-  top: 7px;
-}
-
-footer img {
-  width: 125px;
-}
-
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
-}
-
-footer {
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 20px;
+    /* Tambahkan CSS untuk menu-icon */
+    .menu-icon{
+        visibility: visible;
+    }
 }
