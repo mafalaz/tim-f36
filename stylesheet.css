@@ -81,10 +81,10 @@ header {
 
 .menu-icon {
   color: #5f5d60;
-  display: none;
   float: right;
   font-size: 25px;
   padding: 21px 0;
+  visibility: hidden;
 }
 
 .logo {
