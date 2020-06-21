@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Tambahkan CSS untuk container */
+.container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Tambahkan CSS untuk top-wrapper */
+.top-wrapper {
+  padding-top: 180px;
+  padding-bottom: 100px;
+  color: white;
+  background-image: url(https://soft-garage.com/assets/images/bannar/g5.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+}
+
+.html:hover {
+  background-color: rgba(216, 222, 249, 0.9);
+  padding-right: 22px;
+  padding-left: 22px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.css:hover {
+  background-color: rgba(216, 222, 249, 0.9);
+  padding-right: 22px;
+  padding-left: 22px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.javascript:hover {
+  background-color: rgba(216, 222, 249, 0.9);
+  padding-right: 22px;
+  padding-left: 22px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.node-js:hover {
+  background-color: rgba(216, 222, 249, 0.9);
+  padding-right: 22px;
+  padding-left: 22px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #5f5d60;
+  transition: all 1s;
+  font-size: 20px;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 10px;
+  transition: all 1s;
+}
+
+.btn {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+}
+
+/* Tambahkan CSS untuk signup */
+.signup {
+  background-color: #239b76;
+}
+
+/* Tambahkan CSS untuk facebook */
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+/* Tambahkan CSS untuk twitter */
+.twitter {
+  background-color: #55acee;
+}
+
+/* Tambahkan CSS untuk btn-wrapper */
+.btn-wrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: all 1s;
+}
+
+/* Tambahkan CSS untuk tag <p> didalam class btn-wrapper */
+.btn-wrapper p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: white;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+  border-bottom: 2px solid #dee7ec;
+}
+
+/* Tambahkan CSS untuk tag <p> didalam lesson-icon */
+.lesson-icon p {
+  top: 90px;
+  width: 100%;
+  font-size: 25px;
+  color: #5f5d60;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 15px;
+  color: #5f5d60;
+}
