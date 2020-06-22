@@ -1,3 +1,26 @@
+@keyframes disco {
+  0%   {background-color:red}
+  25%  {background-color:yellow}
+  50%  {background-color:blue}
+  75%  {background-color:green}
+  100% {background-color:red}
+}
+
+.disco {
+  background-color: red;
+  animation-name: disco;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
 *{
   box-sizing: border-box;
 }
@@ -159,9 +182,21 @@ header {
   font-weight: normal;
 }
 
+.pertanyaan {
+  display: inline-block;
+  padding-top: 80px;
+}
+
+
+
 .lesson {
   float: left;
   width: 25%;
+}
+
+.developer {
+  float: left;
+  width: 33%;
 }
 
 .lesson-icon {
@@ -218,17 +253,47 @@ header {
   top: 7px;
 }
 
+.picture {
+  padding-top: 30px;
+}
+
 footer img {
   width: 125px;
 }
 
 footer p {
   color: #b3aeb5;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 footer {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 20px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.image {
+  opacity: 1;
+  width: 10%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.picture {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.picture:hover {
+  opacity: 0.3;
 }
