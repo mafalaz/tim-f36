@@ -4,6 +4,10 @@
         width: 100%;
     }
 
+    .developer{
+        width: 100%;
+    }
+
     .message-wrapper{
         width: 100%;
     }
@@ -15,6 +19,10 @@
 
     footer img {
         width: 125px;
+    }
+
+    .image {
+      width: 125px;
     }
 
     footer p {
@@ -50,6 +58,10 @@
         width: 100%;
     }
 
+    .developer{
+        width: 100%;
+    }
+
     .message-wrapper{
         width: 100%;
     }
@@ -62,6 +74,10 @@
 
     footer img {
         width: 100%;
+    }
+
+    .image {
+      width: 100%;
     }
 
     footer p {
