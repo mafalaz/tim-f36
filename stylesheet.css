@@ -1,6 +1,6 @@
 @keyframes disco {
   0%   {background-color:red}
-  25%  {background-color:yellow}
+  25%  {background-color:black}
   50%  {background-color:blue}
   75%  {background-color:green}
   100% {background-color:red}
@@ -196,7 +196,7 @@ header {
 
 .developer {
   float: left;
-  width: 33%;
+  width: 25%;
 }
 
 .lesson-icon {
@@ -223,7 +223,7 @@ header {
 .lesson-icon p {
   top: 90px;
   width: 100%;
-  font-size: 25px;
+  font-size: 20px;
   color: #5f5d60;
 }
 
@@ -264,12 +264,12 @@ footer img {
 footer p {
   color: #b3aeb5;
   font-size: 20px;
+  padding-bottom: 20px;
 }
 
 footer {
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 20px;
+  height: 50px;
 }
 
 .btn:hover {
@@ -278,7 +278,7 @@ footer {
 
 .image {
   opacity: 1;
-  width: 10%;
+  width: 15%;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
