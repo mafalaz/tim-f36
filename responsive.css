@@ -46,6 +46,7 @@
     /* Tambahkan CSS untuk tag <h2> didalam heading */
     .heading h2{
         font-size: 20px;
+        width: 100%;
     }
 }
 
@@ -56,6 +57,10 @@
     /* Ubah width milik lesson ke 100% */
     .lesson{
         width: 100%;
+    }
+
+    .heading h2 {
+      width: 100%;
     }
 
     .developer{
